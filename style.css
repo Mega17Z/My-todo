@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 229, 229);
+}
+
+.container{
+    width: 100%;
+    max-width: 450px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container input{
+    width: 100%;
+    min-height: 6vh;
+    /* background-color: wheat; */
+    border: none;
+    outline: 1px solid;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+.container button{
+    background-color: black;
+    padding: 0 10px;
+    border-radius: 0px 5px 5px 0px;
+    color: whitesmoke;
+    min-height: 6vh;
+    border: none;
+}
+
+ul{
+    width: 100%;
+    max-width: 450px;
+    margin: 0.5rem auto;
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+li i{
+    font-size: 20px;
+}
+
